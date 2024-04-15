@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html"; charset="UTF-8">
+        <title>ejercicio_03</title>
+    </head>
+    <body>
+        <form action="procesar.php" method="post">
+            <fieldset>
+                <legend>Información personal:</legend>
+                NOMBRE
+                <input type="text" name="NOMBRES">
+                APELLIDOS
+                <input type="text" name="APELLIDOS">
+                MAYOR DE EDAD
+                <Input type="checkbox" name="MAYOR DE EDAD" value="+18">
+                <Input type="checkbox" name="rREPETIDOR" value="REPETIDOR">
+
+                Email:
+                <input type="email" name="email">
+                <br>
+                <input type="tel" name="telefono" pattern="[0-9]{9}">
+                <input type="color">
+                <input type="date">
+
+                Fotografia
+                <input type="file" name="imagen"><br>
+                Contraseña:
+                <input type="password" name="contraseña"><br>
+                Genero:
+                <Input type="radio" name="hombre" value="hombre">hombre
+                <Input type="radio" name="mujer" value="mujer">mujer<br> 
+                Nacionalidad:
+                <select name="People">
+                    <option value="Albany">Albania</option>
+                    <option value="Germany">Alemania</option>
+                    <option value="Bielorrus">Bielorrusia</option>
+                    <option value="Camboooa">Camboya</option>
+                </select>
+                <br>
+                Genero:
+                <Input type="checkbox" name="Cricket" value="Cricket">hombre
+                <Input type="checkbox" name="Football" value="Football">mujer<br>
+                Direccion:
+                <br>
+                <textarea name="Mensaje" rows="10" cols="50"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </fieldset>        
